@@ -141,3 +141,14 @@ nav ul li:hover{
     width: 100%;
 }
 /*end/page-container*/
+.main-table{
+	width: 1000px;
+	background-color: #20D5DEFF;
+}
+.main-table tr th {
+	font-size: 30px;
+}
+#1{
+	
+
+}
