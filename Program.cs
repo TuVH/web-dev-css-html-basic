@@ -1,80 +1,44 @@
 ﻿using System;
-using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LearningCsharp
+namespace LearnCsharp
 {
     class Program
     {
+        
+
         static void Main(string[] args)
         {
-            
+            Console.OutputEncoding = Encoding.UTF8;
+            int number = Check();
+            Funtion f = new Funtion(number);
+            Console.WriteLine("Số {0} là số lẻ : {1}", number, f.IsOdd());
+            Console.WriteLine("Số {0} là số Chẳn : {1}", number, f.IsEven());
+            Console.WriteLine("Số {0} là số nguyên tố : {1}", number, f.IsPrime());
+            Console.WriteLine("Số mũ 2 của {0} là {1}", number, f.Square());
+            Console.WriteLine("Số mũ 3 của {0} là {1}", number, f.Cube());
+            Console.WriteLine("Tri tuyệt đối của {0} là {1}",number,f.Abs());
+            Console.WriteLine("Số x ^ y là :{0}",f.Pow(5,2));
+            Console.WriteLine(f.Rand1());
 
-            int[] arr = {21,64 ,25 ,12 ,22, 11};
-            int indexSmallest =  FindSmallest(arr);
-            int largestNumber = FindLargest(arr);
-            MoveFirstSmallest(arr,indexSmallest);
-            Console.Write("\n");
-            MoveFirstLargest(arr, largestNumber);
 
             Console.ReadKey();
         }
-        static void MoveFirstSmallest(int[] arr, int indexSmallest)
+        static int Check()
         {
-            int temp = arr[indexSmallest];
-            arr[indexSmallest] = arr[0];
-            arr[0] = temp;
-            for (int i = 0; i < arr.Length; i++)
+            int number = 0;
+            Console.WriteLine("Mời bạn nhập số :");
+
+            int.TryParse(Console.ReadLine(), out number);
+            while (number == 0)
             {
-                Console.Write(arr[i] + " " );
+                Console.WriteLine("Nhập sai, vui lòng nhập lại số :");
+                int.TryParse(Console.ReadLine(), out number);
             }
-
-        }
-        static void MoveFirstLargest(int[] arr, int largestNumber)
-        {
-            int temp = arr[largestNumber];
-            arr[largestNumber] = arr[0];
-            arr[0] = temp;
-            for (int i = 0; i < arr.Length; i++)
-            {
-                Console.Write(arr[i] + " ");
-            }
-
-        }
-
-
-
-        static int FindSmallest(int[] arr)
-        {
-            int smallestNumber = arr[0];
-            int indexSmallest = 0;
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (arr[i] < smallestNumber)
-                {
-                    smallestNumber = arr[i];
-                    indexSmallest = i;
-                }
-            }
-            Console.WriteLine("so nho nhat la " + smallestNumber);
-            return indexSmallest;
-        }
-        static int FindLargest(int[] arr)
-        {
-            int indexLargest = 0;
-            int largestNumber = arr[0];
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (arr[i] > largestNumber)
-                {
-                    largestNumber = arr[i];
-                    indexLargest = i;
-                }
-            }
-            Console.WriteLine("so lon nhat la " + largestNumber);
-            return indexLargest;
+            return number;
         }
     }
 }
