@@ -9,7 +9,7 @@ body{
 nav{
 	width: 100%;
 	height: 80px;
-	background-color: #808080FF;
+	background-color: #B8466CFF;
 	line-height: 80px;
 }
 nav ul{
@@ -27,7 +27,8 @@ nav ul li a {
 	padding: 20px;
 }
 nav ul li:hover{
-	background-color: #D529D1FF;
+	color: #D01AE4FF;
+	background-color: #ABB34BFF;
 	color: #808080FF;
 	font-weight: bold;
 	font-size: 1.2rem;
@@ -48,7 +49,7 @@ nav ul li:hover{
 }
 .section p{
 	color: gray;
-
+	
 }
 .btn-1{
 	background-color: orangered;

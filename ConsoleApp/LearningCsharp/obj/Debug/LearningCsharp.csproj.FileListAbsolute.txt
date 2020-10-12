@@ -1,0 +1,7 @@
+D:\ConsoleApp\LearningCsharp\bin\Debug\LearningCsharp.exe.config
+D:\ConsoleApp\LearningCsharp\bin\Debug\LearningCsharp.exe
+D:\ConsoleApp\LearningCsharp\bin\Debug\LearningCsharp.pdb
+D:\ConsoleApp\LearningCsharp\obj\Debug\LearningCsharp.csprojAssemblyReference.cache
+D:\ConsoleApp\LearningCsharp\obj\Debug\LearningCsharp.csproj.CoreCompileInputs.cache
+D:\ConsoleApp\LearningCsharp\obj\Debug\LearningCsharp.exe
+D:\ConsoleApp\LearningCsharp\obj\Debug\LearningCsharp.pdb
