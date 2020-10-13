@@ -2,19 +2,19 @@
 
 body{
 	font-family: sans-serif;
-	margin:0;
-	padding: 0;
+	margin     :0;
+	padding    : 0;
 	
 }
 nav{
-	width: 100%;
-	height: 80px;
+	width           : 100%;
+	height          : 80px;
 	background-color: #808080FF;
-	line-height: 80px;
+	line-height     : 80px;
 }
 nav ul{
-	float: right;
-	margin: 0;
+	float       : right;
+	margin      : 0;
 	margin-right: 1.9rem;
 }
 nav ul li{
@@ -23,27 +23,27 @@ nav ul li{
 }
 nav ul li a {
 	text-decoration: blink;
-	color: #FFFFFFFF;
-	padding: 20px;
+	color          : #FFFFFFFF;
+	padding        : 20px;
 }
 nav ul li:hover{
 	background-color: #D529D1FF;
-	color: #808080FF;
-	font-weight: bold;
-	font-size: 1.2rem;
+	color           : #808080FF;
+	font-weight     : bold;
+	font-size       : 1.2rem;
 }
 
 .section{
-	width: 80%;
-	margin: auto;
-	overflow: hidden;
+	width     : 80%;
+	margin    : auto;
+	overflow  : hidden;
 	margin-top: 4%;
 }
 .section h1{
-	color: #808080FF;
-	text-align: center;
+	color      : #808080FF;
+	text-align : center;
 	text-shadow: transparent;
-	font-size: 100px;
+	font-size  : 100px;
 
 }
 .section p{
@@ -52,28 +52,28 @@ nav ul li:hover{
 }
 .btn-1{
 	background-color: orangered;
-	color: white;
-	padding: 1.4rem 2rem;
-	border: none;
-	border-radius: 10px;
+	color           : white;
+	padding         : 1.4rem 2rem;
+	border          : none;
+	border-radius   : 10px;
 }
 
 .btn-1:hover{
 	background-color: orangered;
-	color: #808080FF;
-	font-weight: bold;
-	font-size: 1.2rem;
-	border-radius: 20px;
+	color           : #808080FF;
+	font-weight     : bold;
+	font-size       : 1.2rem;
+	border-radius   : 20px;
 }
 .features{
 	margin-top: 7%;
 }
 .features button{
-	padding: 2rem;
-	margin-right: 7rem;
-	font-size: 1.5rem;
+	padding      : 2rem;
+	margin-right : 7rem;
+	font-size    : 1.5rem;
 	border-radius: 30px;
-	opacity: 0.7;
+	opacity      : 0.7;
 }
 .features button:hover{
 	margin-right: 7rem;
@@ -90,54 +90,54 @@ nav ul li:hover{
 	text-align: center;
 }
 .course-title h1{
-	margin-top: 20px;
+	margin-top   : 20px;
 	margin-bottom: 20px;
 }
 .course-detail img{
-	width: 250px;
-	height: 100px;
+	width        : 250px;
+	height       : 100px;
 	border-radius: 10px;
-	border:2px solid #40404080;
+	border       :2px solid #40404080;
 }
 
 .apply{
-	padding: 0.7rem 1rem;
+	padding         : 0.7rem 1rem;
 	background-color: #EDD511FF;
-	border-radius: 20px;
+	border-radius   : 20px;
 }
 /*change HTML*/
 
 /*Common*/
 .column {
-  float: left;
-  width: 33%;
-  padding-left: 0.5%;
+	float       : left;
+	width       : 33%;
+	padding-left: 0.5%;
 }
 .column:nth-child(2n+1){
 	padding-left: 0;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear  : both;
 }
 /*end/Common*/
 
 /*page-container*/
 #page-container{
-	position: relative;
+	position  : relative;
 	min-height: 600px;
 }
 
 #footer-content{
 	background-color: #333;
-	position: absolute;
-	bottom: 0;
-    color: #fff;
-    text-align: center;
-    padding: 1.2rem;
-    margin-top: 4%;
-    width: 100%;
+	position        : absolute;
+	bottom          : 0;
+	color           : #fff;
+	text-align      : center;
+	padding         : 1.2rem;
+	margin-top      : 4%;
+	width           : 100%;
 }
 /*end/page-container*/
