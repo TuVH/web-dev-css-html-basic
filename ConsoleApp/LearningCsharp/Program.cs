@@ -15,7 +15,7 @@ namespace LearnCsharp
             int number = Check();
             int number1 = Check1();
             float fNumber = Check2();
-           
+
             Funtion f = new Funtion(number, number1);
             Funtion f1 = new Funtion(fNumber);
             //kiểm tra số lẻ
@@ -43,7 +43,7 @@ namespace LearnCsharp
             Console.WriteLine("Số {0} làm tròn lên là:{1}", fNumber, f1.Ceil());
 
             //số đã nhập đã nhập làm tròn xuống
-            Console.WriteLine("Số {0} làm tròn xuống là:{1}",fNumber, f1.Floor());
+            Console.WriteLine("Số {0} làm tròn xuống là:{1}", fNumber, f1.Floor());
 
             //số nguyên Random giữa 2 số (0,2^31-1)
             Console.WriteLine("số random ngẫu nhiên từ 0->2^31-1 là:{0}", f.Rand1());
@@ -52,13 +52,13 @@ namespace LearnCsharp
             Console.WriteLine("số random ngẫu nhiên từ 0->1 là:{0}", f.Rand2());
 
             //tìm giai thừa số thứ nhất đã nhập
-            Console.WriteLine("Giai thừa của số nguyên thứ 1 là {0}",f.Factorial());
-            
+            Console.WriteLine("Giai thừa của số nguyên thứ 1 là {0}", f.Factorial());
+
 
             Console.ReadKey();
         }
 
-         static float Check2()
+        private static float Check2()
         {
             float number = 0;
             Console.WriteLine("Mời bạn nhập 1 số thực:");
@@ -71,7 +71,7 @@ namespace LearnCsharp
             return number;
         }
 
-        static int Check()
+        private static int Check()
         {
             int number = 0;
             Console.WriteLine("Mời bạn nhập số nguyen thứ 1:");
@@ -84,7 +84,8 @@ namespace LearnCsharp
             }
             return number;
         }
-        static int Check1()
+
+        private static int Check1()
         {
             int number = 0;
             Console.WriteLine("Mời bạn nhập số nguyen thứ 2:");

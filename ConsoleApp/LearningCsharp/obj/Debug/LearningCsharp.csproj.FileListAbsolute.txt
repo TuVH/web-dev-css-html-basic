@@ -5,3 +5,10 @@ D:\ConsoleApp\LearningCsharp\obj\Debug\LearningCsharp.csprojAssemblyReference.ca
 D:\ConsoleApp\LearningCsharp\obj\Debug\LearningCsharp.csproj.CoreCompileInputs.cache
 D:\ConsoleApp\LearningCsharp\obj\Debug\LearningCsharp.exe
 D:\ConsoleApp\LearningCsharp\obj\Debug\LearningCsharp.pdb
+F:\web-dev-css-html-basic\ConsoleApp\LearningCsharp\bin\Debug\LearningCsharp.exe.config
+F:\web-dev-css-html-basic\ConsoleApp\LearningCsharp\bin\Debug\LearningCsharp.exe
+F:\web-dev-css-html-basic\ConsoleApp\LearningCsharp\bin\Debug\LearningCsharp.pdb
+F:\web-dev-css-html-basic\ConsoleApp\LearningCsharp\obj\Debug\LearningCsharp.csprojAssemblyReference.cache
+F:\web-dev-css-html-basic\ConsoleApp\LearningCsharp\obj\Debug\LearningCsharp.csproj.CoreCompileInputs.cache
+F:\web-dev-css-html-basic\ConsoleApp\LearningCsharp\obj\Debug\LearningCsharp.exe
+F:\web-dev-css-html-basic\ConsoleApp\LearningCsharp\obj\Debug\LearningCsharp.pdb
