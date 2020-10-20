@@ -1,0 +1,7 @@
+F:\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\bin\Debug\Exercise1.exe.config
+F:\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\bin\Debug\Exercise1.exe
+F:\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\bin\Debug\Exercise1.pdb
+F:\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\obj\Debug\Exercise4b20-10.csprojAssemblyReference.cache
+F:\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\obj\Debug\Exercise4b20-10.csproj.CoreCompileInputs.cache
+F:\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\obj\Debug\Exercise1.exe
+F:\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\obj\Debug\Exercise1.pdb
