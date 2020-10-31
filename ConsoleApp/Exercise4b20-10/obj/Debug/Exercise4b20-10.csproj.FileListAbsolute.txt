@@ -5,3 +5,10 @@ F:\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\obj\Debug\Exercise4b20-10.c
 F:\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\obj\Debug\Exercise4b20-10.csproj.CoreCompileInputs.cache
 F:\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\obj\Debug\Exercise1.exe
 F:\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\obj\Debug\Exercise1.pdb
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\bin\Debug\Exercise1.exe.config
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\bin\Debug\Exercise1.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\bin\Debug\Exercise1.pdb
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\obj\Debug\Exercise4b20-10.csprojAssemblyReference.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\obj\Debug\Exercise4b20-10.csproj.CoreCompileInputs.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\obj\Debug\Exercise1.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise4b20-10\obj\Debug\Exercise1.pdb
