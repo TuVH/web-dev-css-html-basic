@@ -1,0 +1,7 @@
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise6\bin\Debug\Exercise6.exe.config
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise6\bin\Debug\Exercise6.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise6\bin\Debug\Exercise6.pdb
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise6\obj\Debug\Exercise6.csproj.CoreCompileInputs.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise6\obj\Debug\Exercise6.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise6\obj\Debug\Exercise6.pdb
+E:\C#\web-dev-css-html-basic\ConsoleApp\Exercise6\obj\Debug\Exercise6.csprojAssemblyReference.cache

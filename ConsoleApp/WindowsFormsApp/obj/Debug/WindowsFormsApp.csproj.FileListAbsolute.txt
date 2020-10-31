@@ -1,0 +1,10 @@
+E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
