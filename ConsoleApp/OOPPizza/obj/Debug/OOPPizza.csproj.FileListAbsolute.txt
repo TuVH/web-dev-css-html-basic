@@ -1,0 +1,7 @@
+F:\web-dev-css-html-basic\ConsoleApp\OOPPizza\bin\Debug\Test.exe.config
+F:\web-dev-css-html-basic\ConsoleApp\OOPPizza\bin\Debug\Test.exe
+F:\web-dev-css-html-basic\ConsoleApp\OOPPizza\bin\Debug\Test.pdb
+F:\web-dev-css-html-basic\ConsoleApp\OOPPizza\obj\Debug\OOPPizza.csprojAssemblyReference.cache
+F:\web-dev-css-html-basic\ConsoleApp\OOPPizza\obj\Debug\OOPPizza.csproj.CoreCompileInputs.cache
+F:\web-dev-css-html-basic\ConsoleApp\OOPPizza\obj\Debug\Test.exe
+F:\web-dev-css-html-basic\ConsoleApp\OOPPizza\obj\Debug\Test.pdb
