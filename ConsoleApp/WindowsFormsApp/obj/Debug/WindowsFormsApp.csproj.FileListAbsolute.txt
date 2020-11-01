@@ -8,3 +8,13 @@ E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsAp
 E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
 E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
 E:\C#\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+F:\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+F:\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+F:\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+F:\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+F:\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+F:\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+F:\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+F:\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+F:\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+F:\web-dev-css-html-basic\ConsoleApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb

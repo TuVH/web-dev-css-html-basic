@@ -43,7 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Funtion.cs" />
+    <Compile Include="Pizza\DNPizza\DNGreekPizza.cs" />
+    <Compile Include="Pizza\DNPizza\DNModernPizza.cs" />
+    <Compile Include="Pizza\DNPizza\DNTraditionalPizza.cs" />
+    <Compile Include="Pizza\HCMPizza\HCMGreekPizza.cs" />
+    <Compile Include="Pizza\HCMPizza\HCMModernPizza.cs" />
+    <Compile Include="Pizza\HCMPizza\HCMTraditionalPizza.cs" />
+    <Compile Include="Pizza\HNPizza\HNGreekPizza.cs" />
+    <Compile Include="Pizza\HNPizza\HNModernPizza.cs" />
+    <Compile Include="Pizza\HNPizza\HNTraditionalPizza.cs" />
+    <Compile Include="Store\DNPizzaStore.cs" />
+    <Compile Include="Store\HCMPizzaStore.cs" />
+    <Compile Include="Store\HNPizzaStore.cs" />
+    <Compile Include="Pizza\Base\Pizza.cs" />
+    <Compile Include="Store\Base\PizzaStore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

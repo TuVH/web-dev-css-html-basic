@@ -12,20 +12,15 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            List<Funtion> f = new List<Funtion>();
-            for (int i = 0; i < 3; i++)
-            {
-                Funtion funtion = new Funtion();
-                funtion.Input();
-                f.Add(funtion);
-            }
-            foreach (var item in f)
-            {
-                item.Output();
-            }
-        }
-        
+            var dnPizza = new DNPizzaStore();
+            dnPizza.OrderPizza("traditionalPizZa");
+            var hnPizza = new HNPizzaStore();
+            hnPizza.OrderPizza("modernpizza");
+            var hcmPizza = new HCMPizzaStore();
+            hcmPizza.OrderPizza("GreekPizza");
 
+
+        }
     }
     
 }

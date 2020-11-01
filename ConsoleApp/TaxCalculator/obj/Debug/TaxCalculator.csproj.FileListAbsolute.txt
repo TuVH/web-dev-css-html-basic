@@ -7,3 +7,13 @@ E:\C#\web-dev-css-html-basic\ConsoleApp\TaxCalculator\obj\Debug\TaxCalculator.cs
 E:\C#\web-dev-css-html-basic\ConsoleApp\TaxCalculator\obj\Debug\TaxCalculator.csproj.CoreCompileInputs.cache
 E:\C#\web-dev-css-html-basic\ConsoleApp\TaxCalculator\obj\Debug\TaxCalculator.exe
 E:\C#\web-dev-css-html-basic\ConsoleApp\TaxCalculator\obj\Debug\TaxCalculator.pdb
+F:\web-dev-css-html-basic\ConsoleApp\TaxCalculator\bin\Debug\TaxCalculator.exe.config
+F:\web-dev-css-html-basic\ConsoleApp\TaxCalculator\bin\Debug\TaxCalculator.exe
+F:\web-dev-css-html-basic\ConsoleApp\TaxCalculator\bin\Debug\TaxCalculator.pdb
+F:\web-dev-css-html-basic\ConsoleApp\TaxCalculator\obj\Debug\TaxCalculator.csprojAssemblyReference.cache
+F:\web-dev-css-html-basic\ConsoleApp\TaxCalculator\obj\Debug\TaxCalculator.Form1.resources
+F:\web-dev-css-html-basic\ConsoleApp\TaxCalculator\obj\Debug\TaxCalculator.Properties.Resources.resources
+F:\web-dev-css-html-basic\ConsoleApp\TaxCalculator\obj\Debug\TaxCalculator.csproj.GenerateResource.cache
+F:\web-dev-css-html-basic\ConsoleApp\TaxCalculator\obj\Debug\TaxCalculator.csproj.CoreCompileInputs.cache
+F:\web-dev-css-html-basic\ConsoleApp\TaxCalculator\obj\Debug\TaxCalculator.exe
+F:\web-dev-css-html-basic\ConsoleApp\TaxCalculator\obj\Debug\TaxCalculator.pdb
