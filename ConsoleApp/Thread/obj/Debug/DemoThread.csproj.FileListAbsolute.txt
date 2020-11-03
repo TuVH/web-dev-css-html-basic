@@ -1,0 +1,7 @@
+F:\web-dev-css-html-basic\ConsoleApp\Thread\bin\Debug\Thread.exe.config
+F:\web-dev-css-html-basic\ConsoleApp\Thread\bin\Debug\Thread.exe
+F:\web-dev-css-html-basic\ConsoleApp\Thread\bin\Debug\Thread.pdb
+F:\web-dev-css-html-basic\ConsoleApp\Thread\obj\Debug\DemoThread.csproj.CoreCompileInputs.cache
+F:\web-dev-css-html-basic\ConsoleApp\Thread\obj\Debug\Thread.exe
+F:\web-dev-css-html-basic\ConsoleApp\Thread\obj\Debug\Thread.pdb
+F:\web-dev-css-html-basic\ConsoleApp\Thread\obj\Debug\DemoThread.csprojAssemblyReference.cache

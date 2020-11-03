@@ -1,0 +1,7 @@
+F:\web-dev-css-html-basic\ConsoleApp\Test\bin\Debug\Test.exe.config
+F:\web-dev-css-html-basic\ConsoleApp\Test\bin\Debug\Test.exe
+F:\web-dev-css-html-basic\ConsoleApp\Test\bin\Debug\Test.pdb
+F:\web-dev-css-html-basic\ConsoleApp\Test\obj\Debug\Test.csprojAssemblyReference.cache
+F:\web-dev-css-html-basic\ConsoleApp\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+F:\web-dev-css-html-basic\ConsoleApp\Test\obj\Debug\Test.exe
+F:\web-dev-css-html-basic\ConsoleApp\Test\obj\Debug\Test.pdb
