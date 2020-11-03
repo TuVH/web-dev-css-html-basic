@@ -5,3 +5,10 @@ F:\web-dev-css-html-basic\ConsoleApp\OOPPizza\obj\Debug\OOPPizza.csprojAssemblyR
 F:\web-dev-css-html-basic\ConsoleApp\OOPPizza\obj\Debug\OOPPizza.csproj.CoreCompileInputs.cache
 F:\web-dev-css-html-basic\ConsoleApp\OOPPizza\obj\Debug\Test.exe
 F:\web-dev-css-html-basic\ConsoleApp\OOPPizza\obj\Debug\Test.pdb
+E:\C#\web-dev-css-html-basic\ConsoleApp\OOPPizza\bin\Debug\Test.exe.config
+E:\C#\web-dev-css-html-basic\ConsoleApp\OOPPizza\bin\Debug\Test.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\OOPPizza\bin\Debug\Test.pdb
+E:\C#\web-dev-css-html-basic\ConsoleApp\OOPPizza\obj\Debug\OOPPizza.csprojAssemblyReference.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\OOPPizza\obj\Debug\OOPPizza.csproj.CoreCompileInputs.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\OOPPizza\obj\Debug\Test.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\OOPPizza\obj\Debug\Test.pdb
