@@ -19,7 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPizza", "OOPPizza\OOPPiz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCsharp", "LearningCsharp\LearningCsharp.csproj", "{AE9C30D9-35D6-40F5-BBA2-EE46B9C2B907}"
 EndProject
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class0711_197PM33774", "Class0711_197PM33774\Class0711_197PM33774.csproj", "{8359AD87-51E0-411E-901E-DA893A771EA7}"
+=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{87283316-B49A-4308-98B1-1068F58878A2}"
+>>>>>>> e4dbd9662373149c6196860b22daa973f1b66924
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +63,17 @@ Global
 		{AE9C30D9-35D6-40F5-BBA2-EE46B9C2B907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE9C30D9-35D6-40F5-BBA2-EE46B9C2B907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE9C30D9-35D6-40F5-BBA2-EE46B9C2B907}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+		{8359AD87-51E0-411E-901E-DA893A771EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8359AD87-51E0-411E-901E-DA893A771EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8359AD87-51E0-411E-901E-DA893A771EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8359AD87-51E0-411E-901E-DA893A771EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
 		{87283316-B49A-4308-98B1-1068F58878A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{87283316-B49A-4308-98B1-1068F58878A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87283316-B49A-4308-98B1-1068F58878A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87283316-B49A-4308-98B1-1068F58878A2}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> e4dbd9662373149c6196860b22daa973f1b66924
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

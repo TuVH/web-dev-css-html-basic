@@ -1,0 +1,11 @@
+E:\C#\web-dev-css-html-basic\ConsoleApp\Class0711_197PM33774\bin\Debug\Class0711_197PM33774.exe.config
+E:\C#\web-dev-css-html-basic\ConsoleApp\Class0711_197PM33774\bin\Debug\Class0711_197PM33774.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\Class0711_197PM33774\bin\Debug\Class0711_197PM33774.pdb
+E:\C#\web-dev-css-html-basic\ConsoleApp\Class0711_197PM33774\obj\Debug\Class0711_197PM33774.csprojAssemblyReference.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\Class0711_197PM33774\obj\Debug\Class0711_197PM33774.FrmMang.resources
+E:\C#\web-dev-css-html-basic\ConsoleApp\Class0711_197PM33774\obj\Debug\Class0711_197PM33774.FrmDtb.resources
+E:\C#\web-dev-css-html-basic\ConsoleApp\Class0711_197PM33774\obj\Debug\Class0711_197PM33774.Properties.Resources.resources
+E:\C#\web-dev-css-html-basic\ConsoleApp\Class0711_197PM33774\obj\Debug\Class0711_197PM33774.csproj.GenerateResource.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\Class0711_197PM33774\obj\Debug\Class0711_197PM33774.csproj.CoreCompileInputs.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\Class0711_197PM33774\obj\Debug\Class0711_197PM33774.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\Class0711_197PM33774\obj\Debug\Class0711_197PM33774.pdb
