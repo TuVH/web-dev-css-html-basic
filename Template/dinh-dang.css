@@ -140,6 +140,37 @@ nav ul li:hover{
 /*end/Common*/
 
 /*page-container*/
+
+.course__funtion-table{
+	display: flex;
+	justify-content: center;
+	
+}
+.course__funtion-row{
+	margin :5px 5px 5px 5px;
+}
+.course__funtion-item{
+	border: 1px solid black;
+	
+}
+.course__funtion-item--width{
+	width: 100%;
+}
+
+.course__funtion-row--inside{
+	border: 1px solid black;
+}
+
+.course__funtion-item--inside{
+	
+}
+
+.course__funtion-item--link{
+	border: 1px solid black;
+}
+
+
+
 #page-container{
 	position  : relative;
 	min-height: 600px;
