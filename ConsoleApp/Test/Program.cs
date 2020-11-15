@@ -17,6 +17,7 @@ namespace Test
             link.Addmid(8, 1);
             link.Delete(1);
             link.ShowNote();
+            string a = "abcxac";
 
         }
     }
