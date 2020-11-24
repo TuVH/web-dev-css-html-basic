@@ -1,0 +1,17 @@
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\bin\Debug\Employee197PM33774.exe.config
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\bin\Debug\Employee197PM33774.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\bin\Debug\Employee197PM33774.pdb
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\obj\Debug\Employee197PM33774.csprojAssemblyReference.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\obj\Debug\Employee197PM33774.Properties.Resources.resources
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\obj\Debug\Employee197PM33774.csproj.GenerateResource.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\obj\Debug\Employee197PM33774.csproj.CoreCompileInputs.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\obj\Debug\Employee197PM33774.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\obj\Debug\Employee197PM33774.pdb
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\bin\Debug\EntityFramework.dll
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\bin\Debug\EntityFramework.SqlServer.dll
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\bin\Debug\EntityFramework.xml
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\bin\Debug\EntityFramework.SqlServer.xml
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\obj\Debug\Employee197PM33774.csproj.CopyComplete
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\obj\Debug\Employee197PM33774.FrmAdd.resources
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\obj\Debug\Employee197PM33774.FrmEmployeeList.resources
+E:\C#\web-dev-css-html-basic\ConsoleApp\Employee197PM33774\obj\Debug\Employee197PM33774.FrmEdit.resources
