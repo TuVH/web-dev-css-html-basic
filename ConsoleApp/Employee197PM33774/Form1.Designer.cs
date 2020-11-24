@@ -95,7 +95,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmEmployeeList";
-            this.Text = "Nhân Viên";
+            this.Text = "Quan Ly Nhân Viên";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
