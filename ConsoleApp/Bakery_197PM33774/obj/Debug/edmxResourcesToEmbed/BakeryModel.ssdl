@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CAKEMANAGEMENTModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="bunker">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_cake" Type="int" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="amount" Type="int" />
+  </EntityType>
+  <EntityType Name="cake">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_cakekind" Type="int" />
+    <Property Name="cakename" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="detail">
+    <Key>
+      <PropertyRef Name="id_invoice" />
+    </Key>
+    <Property Name="id_cake" Type="int" />
+    <Property Name="id_invoice" Type="int" Nullable="false" />
+    <Property Name="amount" Type="int" />
+  </EntityType>
+  <EntityType Name="invoice">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="kind">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kindname" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_bunker_cake">
+    <End Role="cake" Type="Self.cake" Multiplicity="0..1" />
+    <End Role="bunker" Type="Self.bunker" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cake">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="bunker">
+        <PropertyRef Name="id_cake" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_cake_kind">
+    <End Role="kind" Type="Self.kind" Multiplicity="0..1" />
+    <End Role="cake" Type="Self.cake" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kind">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="cake">
+        <PropertyRef Name="id_cakekind" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detail_cake">
+    <End Role="cake" Type="Self.cake" Multiplicity="0..1" />
+    <End Role="detail" Type="Self.detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cake">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="detail">
+        <PropertyRef Name="id_cake" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detail_invoice">
+    <End Role="invoice" Type="Self.invoice" Multiplicity="1" />
+    <End Role="detail" Type="Self.detail" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="invoice">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="detail">
+        <PropertyRef Name="id_invoice" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CAKEMANAGEMENTModelStoreContainer">
+    <EntitySet Name="bunker" EntityType="Self.bunker" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="cake" EntityType="Self.cake" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="detail" EntityType="Self.detail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="invoice" EntityType="Self.invoice" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="kind" EntityType="Self.kind" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_bunker_cake" Association="Self.FK_bunker_cake">
+      <End Role="cake" EntitySet="cake" />
+      <End Role="bunker" EntitySet="bunker" />
+    </AssociationSet>
+    <AssociationSet Name="FK_cake_kind" Association="Self.FK_cake_kind">
+      <End Role="kind" EntitySet="kind" />
+      <End Role="cake" EntitySet="cake" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detail_cake" Association="Self.FK_detail_cake">
+      <End Role="cake" EntitySet="cake" />
+      <End Role="detail" EntitySet="detail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detail_invoice" Association="Self.FK_detail_invoice">
+      <End Role="invoice" EntitySet="invoice" />
+      <End Role="detail" EntitySet="detail" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
