@@ -1,0 +1,16 @@
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\bin\Debug\QLThuVIen.exe.config
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\bin\Debug\QLThuVIen.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\bin\Debug\QLThuVIen.pdb
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\bin\Debug\EntityFramework.dll
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\bin\Debug\EntityFramework.SqlServer.dll
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\bin\Debug\EntityFramework.xml
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\bin\Debug\EntityFramework.SqlServer.xml
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\obj\Debug\QLThuVIen.csprojAssemblyReference.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\obj\Debug\QLThuVIen.Frm_QLTV.resources
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\obj\Debug\QLThuVIen.Properties.Resources.resources
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\obj\Debug\QLThuVIen.csproj.GenerateResource.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\obj\Debug\QLThuVIen.csproj.CoreCompileInputs.cache
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\obj\Debug\QLThuVIen.csproj.CopyComplete
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\obj\Debug\QLThuVIen.exe
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\obj\Debug\QLThuVIen.pdb
+E:\C#\web-dev-css-html-basic\ConsoleApp\QLThuVIen\obj\Debug\QLThuVIen.Frm_Add.resources
