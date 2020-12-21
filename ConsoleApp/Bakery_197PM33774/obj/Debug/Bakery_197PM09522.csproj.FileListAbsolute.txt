@@ -1,0 +1,17 @@
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\bin\Debug\Bakery_197PM33774.exe.config
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\bin\Debug\Bakery_197PM33774.exe
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\bin\Debug\Bakery_197PM33774.pdb
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\bin\Debug\EntityFramework.dll
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\bin\Debug\EntityFramework.SqlServer.dll
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\bin\Debug\EntityFramework.xml
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\bin\Debug\EntityFramework.SqlServer.xml
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\obj\Debug\Bakery_197PM09522.csprojAssemblyReference.cache
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\obj\Debug\Bakery_197PM33774.Frm_main.resources
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\obj\Debug\Bakery_197PM33774.Frm_add.resources
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\obj\Debug\Bakery_197PM33774.Frm_edit.resources
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\obj\Debug\Bakery_197PM33774.Properties.Resources.resources
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\obj\Debug\Bakery_197PM09522.csproj.GenerateResource.cache
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\obj\Debug\Bakery_197PM09522.csproj.CoreCompileInputs.cache
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\obj\Debug\Bakery_197PM09522.csproj.CopyComplete
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\obj\Debug\Bakery_197PM33774.exe
+F:\web-dev-css-html-basic\ConsoleApp\Bakery_197PM09522\obj\Debug\Bakery_197PM33774.pdb

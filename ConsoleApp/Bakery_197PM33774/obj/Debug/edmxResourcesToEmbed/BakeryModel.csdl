@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CAKEMANAGEMENTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="bunker">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_cake" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="amount" Type="Int32" />
+    <NavigationProperty Name="cake" Relationship="Self.FK_bunker_cake" FromRole="bunker" ToRole="cake" />
+  </EntityType>
+  <EntityType Name="cake">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_cakekind" Type="Int32" />
+    <Property Name="cakename" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="bunkers" Relationship="Self.FK_bunker_cake" FromRole="cake" ToRole="bunker" />
+    <NavigationProperty Name="kind" Relationship="Self.FK_cake_kind" FromRole="cake" ToRole="kind" />
+    <NavigationProperty Name="details" Relationship="Self.FK_detail_cake" FromRole="cake" ToRole="detail" />
+  </EntityType>
+  <EntityType Name="detail">
+    <Key>
+      <PropertyRef Name="id_invoice" />
+    </Key>
+    <Property Name="id_cake" Type="Int32" />
+    <Property Name="id_invoice" Type="Int32" Nullable="false" />
+    <Property Name="amount" Type="Int32" />
+    <NavigationProperty Name="cake" Relationship="Self.FK_detail_cake" FromRole="detail" ToRole="cake" />
+    <NavigationProperty Name="invoice" Relationship="Self.FK_detail_invoice" FromRole="detail" ToRole="invoice" />
+  </EntityType>
+  <EntityType Name="invoice">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="detail" Relationship="Self.FK_detail_invoice" FromRole="invoice" ToRole="detail" />
+  </EntityType>
+  <EntityType Name="kind">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kindname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="cakes" Relationship="Self.FK_cake_kind" FromRole="kind" ToRole="cake" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_bunker_cake">
+    <End Role="cake" Type="Self.cake" Multiplicity="0..1" />
+    <End Role="bunker" Type="Self.bunker" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cake">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="bunker">
+        <PropertyRef Name="id_cake" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_cake_kind">
+    <End Role="kind" Type="Self.kind" Multiplicity="0..1" />
+    <End Role="cake" Type="Self.cake" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kind">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="cake">
+        <PropertyRef Name="id_cakekind" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detail_cake">
+    <End Role="cake" Type="Self.cake" Multiplicity="0..1" />
+    <End Role="detail" Type="Self.detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cake">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="detail">
+        <PropertyRef Name="id_cake" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detail_invoice">
+    <End Role="invoice" Type="Self.invoice" Multiplicity="1" />
+    <End Role="detail" Type="Self.detail" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="invoice">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="detail">
+        <PropertyRef Name="id_invoice" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CAKEMANAGEMENTEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="bunkers" EntityType="Self.bunker" />
+    <EntitySet Name="cakes" EntityType="Self.cake" />
+    <EntitySet Name="details" EntityType="Self.detail" />
+    <EntitySet Name="invoices" EntityType="Self.invoice" />
+    <EntitySet Name="kinds" EntityType="Self.kind" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_bunker_cake" Association="Self.FK_bunker_cake">
+      <End Role="cake" EntitySet="cakes" />
+      <End Role="bunker" EntitySet="bunkers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_cake_kind" Association="Self.FK_cake_kind">
+      <End Role="kind" EntitySet="kinds" />
+      <End Role="cake" EntitySet="cakes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detail_cake" Association="Self.FK_detail_cake">
+      <End Role="cake" EntitySet="cakes" />
+      <End Role="detail" EntitySet="details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detail_invoice" Association="Self.FK_detail_invoice">
+      <End Role="invoice" EntitySet="invoices" />
+      <End Role="detail" EntitySet="details" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

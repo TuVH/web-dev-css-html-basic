@@ -61,7 +61,6 @@ namespace Employee197PM33774
                 int id = (int)cell.Value;
                 FrmEdit edit = new FrmEdit(id);
                 edit.ShowDialog();
-                
             }
             else
             {

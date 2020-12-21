@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dbf782e0a5cc4ce6be1e33574088399c" Name="Diagram1">
+        <EntityTypeShape EntityType="CAKEMANAGEMENTModel.bunker" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAKEMANAGEMENTModel.cake" Width="1.5" PointX="3.125" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAKEMANAGEMENTModel.detail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAKEMANAGEMENTModel.invoice" Width="1.5" PointX="1.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAKEMANAGEMENTModel.kind" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAKEMANAGEMENTModel.sysdiagram" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="CAKEMANAGEMENTModel.FK_bunker_cake" ManuallyRouted="false" />
+        <AssociationConnector Association="CAKEMANAGEMENTModel.FK_cake_kind" ManuallyRouted="false" />
+        <AssociationConnector Association="CAKEMANAGEMENTModel.FK_detail_cake" ManuallyRouted="false" />
+        <AssociationConnector Association="CAKEMANAGEMENTModel.FK_detail_invoice" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

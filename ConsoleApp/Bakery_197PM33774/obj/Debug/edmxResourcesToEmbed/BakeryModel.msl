@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CAKEMANAGEMENTModelStoreContainer" CdmEntityContainer="CAKEMANAGEMENTEntities">
+    <EntitySetMapping Name="bunkers">
+      <EntityTypeMapping TypeName="CAKEMANAGEMENTModel.bunker">
+        <MappingFragment StoreEntitySet="bunker">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_cake" ColumnName="id_cake" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cakes">
+      <EntityTypeMapping TypeName="CAKEMANAGEMENTModel.cake">
+        <MappingFragment StoreEntitySet="cake">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_cakekind" ColumnName="id_cakekind" />
+          <ScalarProperty Name="cakename" ColumnName="cakename" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="details">
+      <EntityTypeMapping TypeName="CAKEMANAGEMENTModel.detail">
+        <MappingFragment StoreEntitySet="detail">
+          <ScalarProperty Name="id_cake" ColumnName="id_cake" />
+          <ScalarProperty Name="id_invoice" ColumnName="id_invoice" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="invoices">
+      <EntityTypeMapping TypeName="CAKEMANAGEMENTModel.invoice">
+        <MappingFragment StoreEntitySet="invoice">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kinds">
+      <EntityTypeMapping TypeName="CAKEMANAGEMENTModel.kind">
+        <MappingFragment StoreEntitySet="kind">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="kindname" ColumnName="kindname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="CAKEMANAGEMENTModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
