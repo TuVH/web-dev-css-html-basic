@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QUANLYNHANSUModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BOPHAN">
+    <Key>
+      <PropertyRef Name="MaBoPhan" />
+    </Key>
+    <Property Name="MaBoPhan" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NgayThanhLap" Type="datetime" Nullable="false" />
+    <Property Name="TenBoPhan" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="GhiChu" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'QUANLYNHANSU.dbo.LUONG' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="LUONG">
+    <Key>
+      <PropertyRef Name="MaNV" />
+      <PropertyRef Name="Luong" />
+      <PropertyRef Name="SoNgayCong" />
+      <PropertyRef Name="SoNgayNghi" />
+      <PropertyRef Name="Thang" />
+      <PropertyRef Name="Nam" />
+      <PropertyRef Name="BaoHiem" />
+      <PropertyRef Name="SoGioLamThem" />
+      <PropertyRef Name="PhuCap" />
+    </Key>
+    <Property Name="MaNV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Luong" Type="int" Nullable="false" />
+    <Property Name="SoNgayCong" Type="int" Nullable="false" />
+    <Property Name="SoNgayNghi" Type="int" Nullable="false" />
+    <Property Name="Thang" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Nam" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="BaoHiem" Type="int" Nullable="false" />
+    <Property Name="SoGioLamThem" Type="int" Nullable="false" />
+    <Property Name="PhuCap" Type="int" Nullable="false" />
+    <Property Name="GhiChu" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="NHANVIEN">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MaBoPhan" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Hoten" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NgaySinh" Type="datetime" Nullable="false" />
+    <Property Name="SDT" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TonGiao" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="QuocTich" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="HocVan" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NgayVaoLam" Type="datetime" Nullable="false" />
+    <Property Name="GhiChu" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_LUONG_NHANVIEN">
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="1" />
+    <End Role="LUONG" Type="Self.LUONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="LUONG">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NHANVIEN_BOPHAN">
+    <End Role="BOPHAN" Type="Self.BOPHAN" Multiplicity="1" />
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BOPHAN">
+        <PropertyRef Name="MaBoPhan" />
+      </Principal>
+      <Dependent Role="NHANVIEN">
+        <PropertyRef Name="MaBoPhan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QUANLYNHANSUModelStoreContainer">
+    <EntitySet Name="BOPHAN" EntityType="Self.BOPHAN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NHANVIEN" EntityType="Self.NHANVIEN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LUONG" EntityType="Self.LUONG" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [LUONG].[MaNV] AS [MaNV], 
+    [LUONG].[Luong] AS [Luong], 
+    [LUONG].[SoNgayCong] AS [SoNgayCong], 
+    [LUONG].[SoNgayNghi] AS [SoNgayNghi], 
+    [LUONG].[Thang] AS [Thang], 
+    [LUONG].[Nam] AS [Nam], 
+    [LUONG].[BaoHiem] AS [BaoHiem], 
+    [LUONG].[SoGioLamThem] AS [SoGioLamThem], 
+    [LUONG].[PhuCap] AS [PhuCap], 
+    [LUONG].[GhiChu] AS [GhiChu]
+    FROM [dbo].[LUONG] AS [LUONG]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_LUONG_NHANVIEN" Association="Self.FK_LUONG_NHANVIEN">
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+      <End Role="LUONG" EntitySet="LUONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NHANVIEN_BOPHAN" Association="Self.FK_NHANVIEN_BOPHAN">
+      <End Role="BOPHAN" EntitySet="BOPHAN" />
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
